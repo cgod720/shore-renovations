@@ -292,6 +292,54 @@ body {
     text-align: justify;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+#form {
+    padding-top: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url('./images/rest2-3done.jpg');
+    background-position: center;
+}
+
+#submit {
+    margin: 1.5rem auto;
+    width: fit-content;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, .55);
+    border: none;
+    color: #F8F9F0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input, textarea {
+    margin-bottom: .7rem;
+    background-color: #F8F9F0;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    padding: 5px; 
+    color: #201D1D;
+} 
+
+textarea::placeholder {
+    padding: 5px;
+    color: #201D1D;
+}
+
+
+
 #footer {
     display: flex;
 }
