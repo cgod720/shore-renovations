@@ -325,7 +325,7 @@ input {
     height: 2rem;
 }
 
-input:focus {
+input:focus, textarea:focus {
     outline: none;
 }
 
@@ -336,18 +336,19 @@ input, textarea {
     border-radius: 2px;
     font-size: 1.1rem;
     padding-left: 5px;
+    box-shadow: inset 2px 2px 5px #999;
 }
 
 input[type="text"]::placeholder {  
                   
     /* Firefox, Chrome, Opera */ 
-    padding: 5px; 
+    /* padding: 5px;  */
     color: #201D1D;
     font-size: 1.1rem;
 } 
 
 textarea::placeholder {
-    padding: 5px;
+    /* padding: 5px; */
     color: #201D1D;
     font-size: 1.1rem;
 }
