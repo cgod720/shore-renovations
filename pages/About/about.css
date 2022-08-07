@@ -168,6 +168,10 @@ body {
     align-items: center;
 }
 
+p.animate__animated {
+    animation-duration: 1.4s;
+}
+
 /* .overlay {
     height: 85%;
     width: 80%;
