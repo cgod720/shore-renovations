@@ -158,7 +158,7 @@ body {
 .landing {
     height: 65vh;
     /* min-height: 444px; */
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../../images/kitchen2-finished.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../../images/windows.jpeg');
     /* background-image: url('../../images/rest2-done.jpg');; */
     background-repeat: no-repeat;
     background-position-y: center;
@@ -225,10 +225,12 @@ p.animate__animated {
     line-height: 1.7rem;
 }
 
-.about > ul {
-    padding-bottom: 25px;
-    list-style-type: circle;
-}
+/* p:first-letter {
+    font-size: 1.5rem;
+    color: #333;
+    letter-spacing: 1px;
+} */
+
 
 .about > ul > li, .about > ul {
     margin: 0;
@@ -243,7 +245,31 @@ p.animate__animated {
     color: rgba(255, 0, 0)
 }
 
+.estimate-left {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, .55);
+    padding: 15px;
+    border-radius: 5px;
+    color: #F8F9F0;
+}
 
+.cards {
+    /* text-align: center; */
+    padding: 20px;
+    background-color: #F8F9F0;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    /* height: 75vh; */
+    /* border: 2px solid red; */
+    padding-bottom: 50px;
+}
+
+.card {
+    flex-basis: 30%;
+    text-align: center;
+}
 
 .spaced {
     letter-spacing: 4px;
@@ -253,7 +279,15 @@ p.animate__animated {
     letter-spacing: 1px;
 }
 
+.card > img {
+    width: 90%;
+    height: 50%;
+    border-radius: 3px;
+}
 
+.card > p {
+    text-align: justify;
+}
 
 form {
     display: flex;
@@ -340,10 +374,16 @@ textarea::placeholder {
     margin: 0;
 }
 
-#footer-right > ul, #footer-bottom > ul{
+#footer-right > ul, #footer-bottom > ul {
     list-style-type: none;
     /* border: 1px solid red; */
     padding: 0;
+}
+
+.about > ul {
+    list-style-type: circle;
+    padding-top: 30px;
+    padding-right: 5px;
 }
 
 #footer-right > ul > li, #footer-right, ul > li {
