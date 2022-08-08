@@ -95,7 +95,7 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -105,7 +105,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .cards {
         padding: 20px;
         display: block;
@@ -398,4 +398,10 @@ a {
     color: whitesmoke;
     color: #F8F9F0;
     text-decoration: none;
+}
+
+
+#submit:hover, .estimate:hover, .estimate-left:hover {
+    background-color: rgba(255, 0, 0, .9)
+    /* opacity: 0; */
 }

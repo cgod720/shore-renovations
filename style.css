@@ -95,7 +95,7 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -105,7 +105,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .cards {
         padding: 20px;
         display: block;
@@ -321,6 +321,12 @@ form {
     font-size: 1rem;
 }
 
+
+#submit:hover, .estimate:hover, .estimate-left:hover {
+    background-color: rgba(255, 0, 0, .9)
+    /* opacity: 0; */
+}
+
 input {
     height: 2rem;
 }
@@ -351,6 +357,10 @@ textarea::placeholder {
     /* padding: 5px; */
     color: #201D1D;
     font-size: 1.1rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 
