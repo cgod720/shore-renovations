@@ -166,6 +166,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 p.animate__animated {
@@ -201,48 +202,7 @@ p.animate__animated {
     font-size: 1.2rem;
 }
 
-/* .estimate {
-    background: rgba(255, 0, 0, .55);
-    width: fit-content;
-    padding: 15px;
-    border-radius: 5px;
-    color: #F8F9F0;;
 
-} */
-
-/* #experience {
-    color: rgba(255, 0, 0, .85);
-} */
-
-/* .request {
-    text-align: center;
-    padding-bottom: 20px;
-} */
-
-/* .flexd {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-} */
-
-/* .flexd > div {
-    flex-basis: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
-/* .left {
-    border-right: 1px solid #F8F9F0;
-} */
-
-/* .right {
-    border-left: 1px solid #F8F9F0;
-} */
-
-/* .flexd > div > h4, h2 {
-    margin: 0;
-} */
 
 .about {
     background-color: #F8F9F0;
@@ -262,6 +222,11 @@ p.animate__animated {
     padding: 30px;
     text-align: justify;
     line-height: 1.5rem;
+}
+
+.about > ul > li, .about > ul {
+    margin: 0;
+    /* margin-bottom: ; */
 }
 
 .red {
@@ -397,7 +362,7 @@ textarea::placeholder {
     margin: 0;
 }
 
-#footer-right > ul, #footer-bottom > ul {
+#footer-right > ul, #footer-bottom > ul, .about > ul {
     list-style-type: none;
     /* border: 1px solid red; */
     padding: 0;
