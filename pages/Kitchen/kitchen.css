@@ -227,15 +227,16 @@ p.animate__animated {
 
 .about > ul {
     padding-bottom: 25px;
+    padding-right: 15px;
     list-style-type: circle;
+    margin: 0 auto;
+    width: fit-content;
 }
 
-.about > ul > li, .about > ul {
-    margin: 0;
-}
 
 .about > ul > li {
     padding: 7px;
+    line-height: 1.7rem;
     /* padding-left: 30px; */
 }
 

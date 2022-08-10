@@ -133,6 +133,11 @@ body {
         max-height: 236px;
     }
 
+    .about > ul {
+        margin: 0 auto;
+        width: fit-content;
+    }
+
 
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -158,7 +163,7 @@ body {
 .landing {
     height: 65vh;
     /* min-height: 444px; */
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../../images/windows.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../../images/rest-before.jpg');
     /* background-image: url('../../images/rest2-done.jpg');; */
     background-repeat: no-repeat;
     background-position-y: center;
@@ -209,7 +214,7 @@ p.animate__animated {
     color: black;
     font-size: 1.15rem;
     /* color: #333; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .about > h3 {
@@ -225,16 +230,12 @@ p.animate__animated {
     line-height: 1.7rem;
 }
 
-/* p:first-letter {
-    font-size: 1.5rem;
-    color: #333;
-    letter-spacing: 1px;
-} */
-
-
 .about > ul {
     margin: 0 auto;
     width: fit-content;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-bottom: 30px;
 }
 
 .about > ul > li {
@@ -383,7 +384,6 @@ textarea::placeholder {
 
 .about > ul {
     list-style-type: circle;
-    padding-top: 30px;
     padding-right: 5px;
 }
 
@@ -400,6 +400,7 @@ a {
     color: #F8F9F0;
     text-decoration: none;
 }
+
 
 #submit:hover, .estimate:hover, .estimate-left:hover {
     background-color: rgba(255, 0, 0, .9)

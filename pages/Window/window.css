@@ -232,8 +232,9 @@ p.animate__animated {
 } */
 
 
-.about > ul > li, .about > ul {
-    margin: 0;
+.about > ul {
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .about > ul > li {
