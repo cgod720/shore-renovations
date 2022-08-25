@@ -17,7 +17,7 @@ body {
     background-color: #333;
     /* background-color: #F8F9F0; */
     /* max-width: 1366px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .call-now {
@@ -84,6 +84,7 @@ body {
 
 .topnav .icon {
   display: none;
+  padding-top: 10px;
 }
 
 .dropdown {
