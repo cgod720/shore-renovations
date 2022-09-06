@@ -60,13 +60,11 @@ body {
 
 .topnav a {
   float: left;
-  /* display: flex; */
   color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  /* flex-direction: row; */
 }
 
 .logo-hidden {
@@ -88,8 +86,8 @@ body {
 }
 
 .dropdown {
-  /* float: left; */
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
 
 }
 
