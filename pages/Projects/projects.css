@@ -103,7 +103,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #F8F9F0;;
+  background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -114,7 +114,7 @@ body {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #F8F9F0;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -225,14 +225,7 @@ p.animate__animated {
     animation-duration: 1.4s;
 }
 
-/* .overlay {
-    height: 85%;
-    width: 80%;
-    min-height: 440px;
-    background: rgba(51, 51, 51, .85);
-    padding: 15px;
-    max-width: 600px;
-} */
+
 
 .top {
     padding: 10px;
@@ -257,7 +250,7 @@ p.animate__animated {
 
 
 .about {
-    background-color: #F8F9F0;
+    background-color: #333;
     color: black;
     font-size: 1.15rem;
 
@@ -502,6 +495,8 @@ img {
         "seven six six"
     ;
     background-color: #333;
+    max-width: 672px;
+    margin: 0 auto;
 }
 
 .mondrian div {
