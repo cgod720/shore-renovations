@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: Asap;
+    font-family: Nunito;
 }
 body {
     margin:0;
@@ -11,6 +11,7 @@ body {
     /* background-color: #201D1D; */
     background-color: #333;
     height: 100%;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -24,6 +25,7 @@ body {
     justify-content: space-around;
     background-color: #F8F9F0;
     color: #333;
+    padding: 0 20px 0 20px;
 }
 
 .call-now * {
@@ -258,8 +260,7 @@ p.animate__animated {
     background-color: #F8F9F0;
     color: black;
     font-size: 1.15rem;
-    /* color: #333; */
-    padding-bottom: 50px;
+
 }
 
 .about > h3 {
@@ -361,7 +362,7 @@ form {
     margin: 1.5rem auto;
     width: fit-content;
     padding: 10px;
-    background-color: rgba(255, 0, 0, .55);
+    background-color: rgba(203,161,53, .85);
     border: none;
     color: #F8F9F0;
     text-align: center;
@@ -419,10 +420,13 @@ textarea::placeholder {
 
 #footer-left > h2 {
     margin: 0 0 10px 0;
+    color:rgba(255,204,51, 1);
 }
 
-#footer-right > h3 {
+#footer-right > h2 {
     margin: 0;
+    color:rgba(255,204,51, 1);
+
 }
 
 #footer-right > ul, #footer-bottom > ul {
@@ -443,6 +447,7 @@ textarea::placeholder {
 
 #footer-bottom {
     padding: 30px 0 0 30px;
+    color:rgba(255,204,51, 1);
 }
 
 a {
@@ -452,7 +457,8 @@ a {
 }
 
 #submit:hover, .estimate:hover, .estimate-left:hover {
-    background-color: rgba(255, 0, 0, .9)
+    background-color: rgba(203,161,53, 1);
+    color: #333;
     /* opacity: 0; */
 }
 
@@ -482,6 +488,53 @@ img {
     max-height: 330px;
     display: block;
     /* margin: 0 auto; */
+}
+
+.mondrian {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: .5rem;
+    grid-template-areas: 
+        "one one two"
+        "four three three"
+        "five five eight"
+        "seven six six"
+    ;
+    background-color: #333;
+}
+
+.mondrian div {
+    /* border: 2px solid red; */
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
 }
 
 

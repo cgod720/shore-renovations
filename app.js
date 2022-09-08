@@ -3,6 +3,13 @@
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwH5wiLI_ZhpCgJgJvLh1Bs976ssEqC8svUXdkuYGOewKFQ1Ts/exec'
 const form = document.querySelector('form')
+const leftArrow = document.querySelector('#left-arrow')
+const rightArrow = document.querySelector('#right-arrow')
+const carousel = document.querySelector('#carousel')
+
+const imageArr = ['./images/bath-redone.jpg', './images/bathroom2-refinished.jpg', './images/kitch-finished1.jpg']
+let imageIndex = 0
+
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -21,4 +28,28 @@ function myFunction() {
     } else {
       x.classList.remove("responsive");
     }
+}
+
+rightArrow.addEventListener('click', () => {
+  imageIndex++
+  if(imageIndex >= imageArr.length) {
+    imageIndex = 0
   }
+  carousel.src = imageArr[imageIndex]
+})
+
+leftArrow.addEventListener('click', () => {
+  imageIndex--
+  if(imageIndex <= -1){
+    imageIndex = imageArr.length - 1
+  }
+  carousel.src = imageArr[imageIndex]
+})
+
+setInterval(() => {
+  imageIndex++
+  if(imageIndex >= imageArr.length) {
+    imageIndex = 0
+  }
+  carousel.src = imageArr[imageIndex]
+}, 5000)

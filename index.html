@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./images/renovation.png">
+    <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
 
@@ -77,43 +77,28 @@
                 </div>
                 <div class="right">
                     <h4>One call does it all</h4>
-                    <h2>(848) 659-6522</h2>
+                    <h2>(848) 459-6522</h2>
                 </div>
             </div>
         </div>
         <div class="cards">
-            <div class="card">
-                <img src="./images/bath-redone.jpg" alt="finished bathroom"/>
-                
-                <h3 class="spaced">RESIDENTIAL</h3>
-                <p>
-                  We've worked with families across Monmouth & Ocean County to redesign and remodel rooms of all function and size. Always delivering based on customer needs.
-                </p>
+            <div class="left-arrow">
+                <img src="./images/left-arrow.svg" alt="left arrow" id="left-arrow">
             </div>
             <div class="card">
-                <img src="./images/rest2-2done.jpg" alt=
-                "commercial space redone"/>
-                <h3 class="spaced">COMMERCIAL</H3>
-                <p>
-                  We work with commercial spaces of all sizes. No project is too large or small for us to redesign.
-                </p>
-              </div>
-      
-              <div class="card">
-                <img src="./images/kitch-finished1.jpg"/>
-                <h3 class="spaced">ABOUT</h3>
-                <p>
-                  Our experience stretches from indoor work to outdoor work. Whether you need an entire section of the house renovated or an outside deck or walk-way built, we've got you covered.
-                </p>
-              </div>
+                <img src="./images/bath-redone.jpg" id="carousel">
+            </div>
+            <div class="right-arrow">
+                <img src="./images/right-arrow.svg" alt="right arrow" id="right-arrow">
+            </div>
         </div>
         <div id="form">
             <h2 class="spaced">CONTACT US</h2>
             <form>
-                <input type="text" placeholder="Full Name" name="Full Name"/>
-                <input type="text" placeholder="Phone" name="Phone"/>
-                <input type="text" placeholder="Email" name="Email"/>
-                <input type="text" placeholder="Service" name="Services"/>
+                <input type="text" placeholder="Full Name" name="Full Name" required/>
+                <input type="text" placeholder="Phone" name="Phone" required/>
+                <input type="text" placeholder="Email" name="Email" required/>
+                <input type="text" placeholder="Service" name="Services" required/>
                 <textarea name="Message" placeholder="Message" rows="3" name="Message"></textarea>
                 <button type="submit" id="submit">LET'S GET STARTED </button>
             </form>
@@ -123,14 +108,15 @@
             <div id="footer">
                 <div id="footer-left">
                     <h2 class="min-spaced">Shore Renovations</h2>
-                    <h2 class="red spaced">(848)459-6522</h2>
-                    <p class="spaced">Asbury Park, NJ</p>
+                    <h2 class="spaced">(848)459-6522</h2>
+                    <p class="spaced whitesmoke">Asbury Park, NJ</p>
                     <br/>
-                    <h4 class="spaced">M-F 7AM-6PM</h4>
+                    <h3 class="spaced">Hours of Operation</h3>
+                    <h4 class="spaced">M-F 9AM-5:30PM</h4>
                     <h4 class="spaced">Closed Weekends</h4>
                 </div>
                 <div id="footer-right">
-                    <h2 class="spaced">Menu</h3>
+                    <h2 class="spaced">Menu</h2>
                     <ul class="min-spaced">
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./pages/About/about.html">About</a></li>
@@ -140,7 +126,7 @@
                 </div>
             </div>
             <div id="footer-bottom">
-                <h2 class="spaced">Services</h3>
+                <h2 class="spaced" id="services">Services</h2>
                 <ul class="min-spaced">
                     <ul class="min-spaced">
                         <li><a href="./pages/Kitchen/kitchen.html">Kitchens</a></li>
